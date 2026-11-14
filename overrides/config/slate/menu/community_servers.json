@@ -1,0 +1,10 @@
+{
+  "_readme": "Servers listed here appear under 'Community' on the Slate multiplayer screen. Each entry needs a name and an address (host or host:port); description is optional and shown as a tooltip. Players can join directly or add an entry to their own list. The example entry is not shown (example.com addresses never are); replace it with real ones.",
+  "servers": [
+    {
+      "name": "Example community server",
+      "address": "play.example.com",
+      "description": "Replace me: this entry ships as an example."
+    }
+  ]
+}

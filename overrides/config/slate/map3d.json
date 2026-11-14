@@ -1,0 +1,12 @@
+{
+  "enabled": false,
+  "keyOpens3d": true,
+  "minimap": false,
+  "waypoints": true,
+  "places": true,
+  "players": true,
+  "claims": true,
+  "grid": false,
+  "labels": true,
+  "inventoryButton": true
+}

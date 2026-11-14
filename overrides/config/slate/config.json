@@ -1,0 +1,16 @@
+{
+  "favourites": [],
+  "presets": [],
+  "musicVolumeBeforeMute": 1.0,
+  "collapsedSections": [],
+  "swapVanillaScreens": true,
+  "lastTabs": {
+    "audio": "volume",
+    "controls": "keys"
+  },
+  "dfPageRetired": true,
+  "liveViewMinimised": false,
+  "pinnedMods": [],
+  "modsSort": "NAME",
+  "modsHideLibraries": false
+}

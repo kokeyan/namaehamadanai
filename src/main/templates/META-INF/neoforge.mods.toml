@@ -1,0 +1,33 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "nationsystem"
+version = "1.0.0"
+displayName = "NationSystem"
+authors = "kokeyan"
+description = '''
+Warring Nations の拡張。建国時の鉱脈トークン付与と、鉱脈選択画面を提供する。
+'''
+
+[[dependencies.nationsystem]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.nationsystem]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.nationsystem]]
+modId = "warringnations"
+type = "required"
+versionRange = "[4.0.0,)"
+ordering = "AFTER"
+side = "BOTH"

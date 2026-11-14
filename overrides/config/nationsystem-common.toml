@@ -1,0 +1,22 @@
+[token]
+	#鉱脈トークンのアイテムID(KubeJSで登録したもの)
+	tokenItem = "namaehamadanai:vein_token"
+	#建国した瞬間に、建国者へトークンを渡すか
+	grantOnFounding = true
+	#建国時に渡すトークンの個数
+	# Default: 1
+	# Range: 1 ~ 64
+	tokensPerNation = 1
+	#true: 1人のプレイヤーにつき生涯1回だけ渡す(建国→解散を繰り返してトークンを稼ぐのを防ぐ)
+	oncePerPlayer = true
+
+[vein]
+	#選択できる鉱脈。書式は「鉱脈レシピID|画面に表示する名前」
+	veins = ["coedeposits:iron_vein|鉄の鉱脈", "coedeposits:copper_vein|銅の鉱脈", "coedeposits:coal_vein|石炭の鉱脈"]
+	#鉱脈生成コマンド(先頭のスラッシュ無し)。{vein} と {multiplier} が置き換わる。
+	#~ ~ ~ はトークンを使ったプレイヤーの位置。サーバー権限(OP4)で実行される。
+	commandTemplate = "coe setvein ~ ~ ~ {vein} {multiplier}"
+	#鉱脈の産出量の倍率(COE側の範囲は 0〜1000、省略時のCOE既定値は 0.8)
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	multiplier = 1.0

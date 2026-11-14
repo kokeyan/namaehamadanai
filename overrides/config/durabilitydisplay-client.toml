@@ -1,0 +1,32 @@
+["General Settings"]
+	#Configure when and how durability information is displayed
+	#Show durability numbers above the durability bar
+	#This displays a compact number (e.g. '1.5k') above damaged items
+	showDurabilityNumbers = true
+	#Show detailed durability information in item tooltips
+	#Adds a line showing exact durability and percentage when hovering over items
+	showTooltipInfo = true
+	#Hide the vanilla durability bar completely
+	#When enabled, only the number will be shown (requires showDurabilityNumbers to be true)
+	#This gives a cleaner, more minimal look
+	hideDurabilityBar = false
+
+["Color Settings"]
+	#Customize colors for different durability levels
+	#Colors must be in hexadecimal format:
+	#• With 0x prefix: '0xFF5555', '0x55FF55', '0x0099FF'
+	#• With # prefix: '#FF5555', '#55FF55', '#0099FF'
+	#• Without prefix: 'FF5555', '55FF55', '0099FF'
+	#Use online color pickers to find hex values easily!
+	#Color for excellent durability (greater than 75%)
+	#Default: '0x55FF55' (Bright Green)
+	colorExcellent = "0x55FF55"
+	#Color for good durability (50-75%)
+	#Default: '0xFFFF55' (Bright Yellow)
+	colorGood = "0xFFFF55"
+	#Color for warning durability (25-50%)
+	#Default: '0xFFAA00' (Orange)
+	colorWarn = "0xFFAA00"
+	#Color for critical durability (less than 25%)
+	#Default: '0xFF5555' (Bright Red)
+	colorCritical = "0xFF5555"
